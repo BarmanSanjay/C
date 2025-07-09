@@ -9,6 +9,6 @@ int main(){
 
     return 0;
 }
-/*it will not print any output since program got crashed
+/*it will not print any output since program got crashed, Segmentation fault (core dumped)
 can be solved by assigning by valid memory location like 
 p = &c, where is some char variable*/
