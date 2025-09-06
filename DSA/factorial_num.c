@@ -1,5 +1,5 @@
 #include<stdio.h>
-int factorial_num(int n){
+long long int factorial_num(long long int n){
     if(n==0){
         return 1;
     }
@@ -8,11 +8,11 @@ int factorial_num(int n){
     }
 }
 int main(){
-    int num;
+    long int num;
     printf("enter the number: ");
-    scanf("%d", &num);
+    scanf("%ld", &num);
 
-    int result = factorial_num(num);
-    printf("The factorial of %d is %d\n", num, result);
+    long long int result = factorial_num(num);
+    printf("The factorial of %ld is %lld\n", num, result);
     return 0;
 }
