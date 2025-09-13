@@ -1,10 +1,10 @@
-//Check if a word is present in a sentence
+//Check if a word is present in a sentence only for word not substring
 #include <stdio.h>
 #include <string.h>
 
 int main() {
     char sentence[] = "You are stronger than you think.";
-    char word[] = "stronger";
+    char word[] = "stron";
 
     // Use strstr to check for the word
     if (strstr(sentence, word) != NULL) {
