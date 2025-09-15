@@ -7,7 +7,7 @@ bool word_in_sentence(const char *sentence, const char *word) {
     // Copy the sentence to a local buffer (since strtok modifies it)
     char buffer[1024];
     strncpy(buffer, sentence, sizeof(buffer));
-    buffer[sizeof(buffer) - 1] = '\0';  // ensure null termination
+    //buffer[sizeof(buffer) - 1] = '\0';  // ensure null termination
 
     // Tokenize the sentence using common word delimiters
     const char *delimiters = " ,.;:\n\t";
