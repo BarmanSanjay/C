@@ -1,5 +1,5 @@
 #include <stdio.h>
-//copied
+//copied from chatgpt
 // Function to check if the word matches from a given index
 int isWordMatch(char sentence[], char word[], int index) {
     int i = 0;
